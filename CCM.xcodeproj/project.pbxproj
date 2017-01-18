@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C454722D3795A7013EFCF4B /* libPods-CCM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7CDDBAF4D2EED089136FB8 /* libPods-CCM.a */; };
+		7D72AF3519F523E000677796 /* libPods-CCMUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C065374C361531D8645A2C3 /* libPods-CCMUITests.a */; };
+		CB62057FE35E979A31426C6A /* libPods-CCMTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D75F269ACD529A08F3ECF6 /* libPods-CCMTests.a */; };
+		E52521B81E2F0A6D0042CE01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E52521B71E2F0A6D0042CE01 /* main.m */; };
+		E52521BB1E2F0A6D0042CE01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E52521BA1E2F0A6D0042CE01 /* AppDelegate.m */; };
+		E52521BE1E2F0A6D0042CE01 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E52521BD1E2F0A6D0042CE01 /* FirstViewController.m */; };
+		E52521C11E2F0A6D0042CE01 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E52521C01E2F0A6D0042CE01 /* SecondViewController.m */; };
+		E52521C41E2F0A6E0042CE01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52521C21E2F0A6D0042CE01 /* Main.storyboard */; };
+		E52521C61E2F0A6E0042CE01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52521C51E2F0A6E0042CE01 /* Assets.xcassets */; };
+		E52521C91E2F0A6E0042CE01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52521C71E2F0A6E0042CE01 /* LaunchScreen.storyboard */; };
+		E52521D41E2F0A6E0042CE01 /* CCMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E52521D31E2F0A6E0042CE01 /* CCMTests.m */; };
+		E52521DF1E2F0A6E0042CE01 /* CCMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E52521DE1E2F0A6E0042CE01 /* CCMUITests.m */; };
+		E52521EE1E2F0D200042CE01 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E52521ED1E2F0D200042CE01 /* SettingViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E52521D01E2F0A6E0042CE01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E52521AB1E2F0A6D0042CE01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E52521B21E2F0A6D0042CE01;
+			remoteInfo = CCM;
+		};
+		E52521DB1E2F0A6E0042CE01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E52521AB1E2F0A6D0042CE01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E52521B21E2F0A6D0042CE01;
+			remoteInfo = CCM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C597182B23759A6F484A890 /* Pods-CCMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCMTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCMTests/Pods-CCMTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D4A0BAA528098CF4F715A94 /* Pods-CCMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCMTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCMTests/Pods-CCMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		466ABDFB35F614E54C946D39 /* Pods-CCM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCM/Pods-CCM.debug.xcconfig"; sourceTree = "<group>"; };
+		5C065374C361531D8645A2C3 /* libPods-CCMUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCMUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		685FFADF2966FE1A94C8BEBF /* Pods-CCM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCM.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCM/Pods-CCM.release.xcconfig"; sourceTree = "<group>"; };
+		BAB4FB0330CDF4B47932C9BA /* Pods-CCMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCMUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCMUITests/Pods-CCMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6D75F269ACD529A08F3ECF6 /* libPods-CCMTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCMTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23C7854CF2BE62A3066D486 /* Pods-CCMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCMUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCMUITests/Pods-CCMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E52521B31E2F0A6D0042CE01 /* CCM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52521B71E2F0A6D0042CE01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E52521B91E2F0A6D0042CE01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E52521BA1E2F0A6D0042CE01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E52521BC1E2F0A6D0042CE01 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		E52521BD1E2F0A6D0042CE01 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		E52521BF1E2F0A6D0042CE01 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E52521C01E2F0A6D0042CE01 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E52521C31E2F0A6D0042CE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E52521C51E2F0A6E0042CE01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E52521C81E2F0A6E0042CE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E52521CA1E2F0A6E0042CE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52521CF1E2F0A6E0042CE01 /* CCMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52521D31E2F0A6E0042CE01 /* CCMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCMTests.m; sourceTree = "<group>"; };
+		E52521D51E2F0A6E0042CE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52521DA1E2F0A6E0042CE01 /* CCMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52521DE1E2F0A6E0042CE01 /* CCMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCMUITests.m; sourceTree = "<group>"; };
+		E52521E01E2F0A6E0042CE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52521EC1E2F0D200042CE01 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		E52521ED1E2F0D200042CE01 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		EA7CDDBAF4D2EED089136FB8 /* libPods-CCM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E52521B01E2F0A6D0042CE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C454722D3795A7013EFCF4B /* libPods-CCM.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52521CC1E2F0A6E0042CE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB62057FE35E979A31426C6A /* libPods-CCMTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52521D71E2F0A6E0042CE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D72AF3519F523E000677796 /* libPods-CCMUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D123F6969EEB6E42599977CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA7CDDBAF4D2EED089136FB8 /* libPods-CCM.a */,
+				C6D75F269ACD529A08F3ECF6 /* libPods-CCMTests.a */,
+				5C065374C361531D8645A2C3 /* libPods-CCMUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC1A083C5CF985A10B86E127 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				466ABDFB35F614E54C946D39 /* Pods-CCM.debug.xcconfig */,
+				685FFADF2966FE1A94C8BEBF /* Pods-CCM.release.xcconfig */,
+				1D4A0BAA528098CF4F715A94 /* Pods-CCMTests.debug.xcconfig */,
+				0C597182B23759A6F484A890 /* Pods-CCMTests.release.xcconfig */,
+				BAB4FB0330CDF4B47932C9BA /* Pods-CCMUITests.debug.xcconfig */,
+				D23C7854CF2BE62A3066D486 /* Pods-CCMUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E52521AA1E2F0A6D0042CE01 = {
+			isa = PBXGroup;
+			children = (
+				E52521B51E2F0A6D0042CE01 /* CCM */,
+				E52521D21E2F0A6E0042CE01 /* CCMTests */,
+				E52521DD1E2F0A6E0042CE01 /* CCMUITests */,
+				E52521B41E2F0A6D0042CE01 /* Products */,
+				DC1A083C5CF985A10B86E127 /* Pods */,
+				D123F6969EEB6E42599977CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E52521B41E2F0A6D0042CE01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E52521B31E2F0A6D0042CE01 /* CCM.app */,
+				E52521CF1E2F0A6E0042CE01 /* CCMTests.xctest */,
+				E52521DA1E2F0A6E0042CE01 /* CCMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E52521B51E2F0A6D0042CE01 /* CCM */ = {
+			isa = PBXGroup;
+			children = (
+				E52521B91E2F0A6D0042CE01 /* AppDelegate.h */,
+				E52521BA1E2F0A6D0042CE01 /* AppDelegate.m */,
+				E52521BC1E2F0A6D0042CE01 /* FirstViewController.h */,
+				E52521BD1E2F0A6D0042CE01 /* FirstViewController.m */,
+				E52521BF1E2F0A6D0042CE01 /* SecondViewController.h */,
+				E52521C01E2F0A6D0042CE01 /* SecondViewController.m */,
+				E52521EC1E2F0D200042CE01 /* SettingViewController.h */,
+				E52521ED1E2F0D200042CE01 /* SettingViewController.m */,
+				E52521C21E2F0A6D0042CE01 /* Main.storyboard */,
+				E52521C51E2F0A6E0042CE01 /* Assets.xcassets */,
+				E52521C71E2F0A6E0042CE01 /* LaunchScreen.storyboard */,
+				E52521CA1E2F0A6E0042CE01 /* Info.plist */,
+				E52521B61E2F0A6D0042CE01 /* Supporting Files */,
+			);
+			path = CCM;
+			sourceTree = "<group>";
+		};
+		E52521B61E2F0A6D0042CE01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E52521B71E2F0A6D0042CE01 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E52521D21E2F0A6E0042CE01 /* CCMTests */ = {
+			isa = PBXGroup;
+			children = (
+				E52521D31E2F0A6E0042CE01 /* CCMTests.m */,
+				E52521D51E2F0A6E0042CE01 /* Info.plist */,
+			);
+			path = CCMTests;
+			sourceTree = "<group>";
+		};
+		E52521DD1E2F0A6E0042CE01 /* CCMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E52521DE1E2F0A6E0042CE01 /* CCMUITests.m */,
+				E52521E01E2F0A6E0042CE01 /* Info.plist */,
+			);
+			path = CCMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E52521B21E2F0A6D0042CE01 /* CCM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52521E31E2F0A6E0042CE01 /* Build configuration list for PBXNativeTarget "CCM" */;
+			buildPhases = (
+				56CBFF24749AB6F2B93BE5E1 /* [CP] Check Pods Manifest.lock */,
+				E52521AF1E2F0A6D0042CE01 /* Sources */,
+				E52521B01E2F0A6D0042CE01 /* Frameworks */,
+				E52521B11E2F0A6D0042CE01 /* Resources */,
+				24244CACCC0E7D1671AD6E02 /* [CP] Embed Pods Frameworks */,
+				B9FFCE0EBC621D83BEE770CF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCM;
+			productName = CCM;
+			productReference = E52521B31E2F0A6D0042CE01 /* CCM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E52521CE1E2F0A6E0042CE01 /* CCMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52521E61E2F0A6E0042CE01 /* Build configuration list for PBXNativeTarget "CCMTests" */;
+			buildPhases = (
+				9B458FAC6CFDE8B80A296387 /* [CP] Check Pods Manifest.lock */,
+				E52521CB1E2F0A6E0042CE01 /* Sources */,
+				E52521CC1E2F0A6E0042CE01 /* Frameworks */,
+				E52521CD1E2F0A6E0042CE01 /* Resources */,
+				C21ECEB9E60E37401DF86975 /* [CP] Embed Pods Frameworks */,
+				62FF8AFA19A0567D3BC87088 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E52521D11E2F0A6E0042CE01 /* PBXTargetDependency */,
+			);
+			name = CCMTests;
+			productName = CCMTests;
+			productReference = E52521CF1E2F0A6E0042CE01 /* CCMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E52521D91E2F0A6E0042CE01 /* CCMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52521E91E2F0A6E0042CE01 /* Build configuration list for PBXNativeTarget "CCMUITests" */;
+			buildPhases = (
+				06E0D4439B8CF92618C714CE /* [CP] Check Pods Manifest.lock */,
+				E52521D61E2F0A6E0042CE01 /* Sources */,
+				E52521D71E2F0A6E0042CE01 /* Frameworks */,
+				E52521D81E2F0A6E0042CE01 /* Resources */,
+				F2CB6030299D3DA5CCB786F1 /* [CP] Embed Pods Frameworks */,
+				0D6476D25841D81E402E7426 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E52521DC1E2F0A6E0042CE01 /* PBXTargetDependency */,
+			);
+			name = CCMUITests;
+			productName = CCMUITests;
+			productReference = E52521DA1E2F0A6E0042CE01 /* CCMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E52521AB1E2F0A6D0042CE01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "赵彦超";
+				TargetAttributes = {
+					E52521B21E2F0A6D0042CE01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FZ4U8996XY;
+						ProvisioningStyle = Automatic;
+					};
+					E52521CE1E2F0A6E0042CE01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FZ4U8996XY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E52521B21E2F0A6D0042CE01;
+					};
+					E52521D91E2F0A6E0042CE01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FZ4U8996XY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E52521B21E2F0A6D0042CE01;
+					};
+				};
+			};
+			buildConfigurationList = E52521AE1E2F0A6D0042CE01 /* Build configuration list for PBXProject "CCM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E52521AA1E2F0A6D0042CE01;
+			productRefGroup = E52521B41E2F0A6D0042CE01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E52521B21E2F0A6D0042CE01 /* CCM */,
+				E52521CE1E2F0A6E0042CE01 /* CCMTests */,
+				E52521D91E2F0A6E0042CE01 /* CCMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E52521B11E2F0A6D0042CE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52521C91E2F0A6E0042CE01 /* LaunchScreen.storyboard in Resources */,
+				E52521C61E2F0A6E0042CE01 /* Assets.xcassets in Resources */,
+				E52521C41E2F0A6E0042CE01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52521CD1E2F0A6E0042CE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52521D81E2F0A6E0042CE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06E0D4439B8CF92618C714CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0D6476D25841D81E402E7426 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCMUITests/Pods-CCMUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24244CACCC0E7D1671AD6E02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCM/Pods-CCM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56CBFF24749AB6F2B93BE5E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		62FF8AFA19A0567D3BC87088 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCMTests/Pods-CCMTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B458FAC6CFDE8B80A296387 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9FFCE0EBC621D83BEE770CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCM/Pods-CCM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C21ECEB9E60E37401DF86975 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCMTests/Pods-CCMTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2CB6030299D3DA5CCB786F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCMUITests/Pods-CCMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E52521AF1E2F0A6D0042CE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52521C11E2F0A6D0042CE01 /* SecondViewController.m in Sources */,
+				E52521BB1E2F0A6D0042CE01 /* AppDelegate.m in Sources */,
+				E52521BE1E2F0A6D0042CE01 /* FirstViewController.m in Sources */,
+				E52521B81E2F0A6D0042CE01 /* main.m in Sources */,
+				E52521EE1E2F0D200042CE01 /* SettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52521CB1E2F0A6E0042CE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52521D41E2F0A6E0042CE01 /* CCMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52521D61E2F0A6E0042CE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52521DF1E2F0A6E0042CE01 /* CCMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E52521D11E2F0A6E0042CE01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E52521B21E2F0A6D0042CE01 /* CCM */;
+			targetProxy = E52521D01E2F0A6E0042CE01 /* PBXContainerItemProxy */;
+		};
+		E52521DC1E2F0A6E0042CE01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E52521B21E2F0A6D0042CE01 /* CCM */;
+			targetProxy = E52521DB1E2F0A6E0042CE01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E52521C21E2F0A6D0042CE01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E52521C31E2F0A6D0042CE01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E52521C71E2F0A6E0042CE01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E52521C81E2F0A6E0042CE01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E52521E11E2F0A6E0042CE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E52521E21E2F0A6E0042CE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E52521E41E2F0A6E0042CE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466ABDFB35F614E54C946D39 /* Pods-CCM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FZ4U8996XY;
+				INFOPLIST_FILE = CCM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = temptest.CCM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E52521E51E2F0A6E0042CE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 685FFADF2966FE1A94C8BEBF /* Pods-CCM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FZ4U8996XY;
+				INFOPLIST_FILE = CCM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = temptest.CCM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E52521E71E2F0A6E0042CE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D4A0BAA528098CF4F715A94 /* Pods-CCMTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FZ4U8996XY;
+				INFOPLIST_FILE = CCMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = temptest.CCMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCM.app/CCM";
+			};
+			name = Debug;
+		};
+		E52521E81E2F0A6E0042CE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C597182B23759A6F484A890 /* Pods-CCMTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FZ4U8996XY;
+				INFOPLIST_FILE = CCMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = temptest.CCMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCM.app/CCM";
+			};
+			name = Release;
+		};
+		E52521EA1E2F0A6E0042CE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAB4FB0330CDF4B47932C9BA /* Pods-CCMUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FZ4U8996XY;
+				INFOPLIST_FILE = CCMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = temptest.CCMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CCM;
+			};
+			name = Debug;
+		};
+		E52521EB1E2F0A6E0042CE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D23C7854CF2BE62A3066D486 /* Pods-CCMUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FZ4U8996XY;
+				INFOPLIST_FILE = CCMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = temptest.CCMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CCM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E52521AE1E2F0A6D0042CE01 /* Build configuration list for PBXProject "CCM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52521E11E2F0A6E0042CE01 /* Debug */,
+				E52521E21E2F0A6E0042CE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52521E31E2F0A6E0042CE01 /* Build configuration list for PBXNativeTarget "CCM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52521E41E2F0A6E0042CE01 /* Debug */,
+				E52521E51E2F0A6E0042CE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52521E61E2F0A6E0042CE01 /* Build configuration list for PBXNativeTarget "CCMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52521E71E2F0A6E0042CE01 /* Debug */,
+				E52521E81E2F0A6E0042CE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52521E91E2F0A6E0042CE01 /* Build configuration list for PBXNativeTarget "CCMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52521EA1E2F0A6E0042CE01 /* Debug */,
+				E52521EB1E2F0A6E0042CE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E52521AB1E2F0A6D0042CE01 /* Project object */;
+}
